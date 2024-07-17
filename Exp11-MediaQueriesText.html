@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Media Queries</title>
+        <style>
+            /*hsl:hue,saturation,lightness*/
+            .container{
+                margin: 0 auto;
+                background: hsl(154,94%,37);
+                box-sizing: border-box;
+            }
+            /* Smart phone (portait and landscape)*/
+            @media screen and (min-width:767px){
+                .container{
+                    width: 100%;
+                    padding: 5px 10px;
+            }}
+            /* Tablet,ipad (portait and landscape)*/
+            @media screen and (min-width:768px) and (max-width:1024px){
+                .container{
+                    width: 750px;
+                    padding: 5px 10px;
+            }}
+            /* Low resolution Desktops and Laptops*/
+          @media screen and (min-width:1025px){ .container{
+                    width: 980px;
+                    padding: 5px 15px;
+            }}
+             /* High resolution Desktops and Laptops*/
+             @media screen and (min-width:1025px){ .container{
+                    width: 1200px;
+                    padding: 5px 20px;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <p>I knew my cousin Mourad enjoyed being alive more than
+                anybody else who had ever fallen into the world by mistake, but
+                this was more than even I could believe.
+                In the first place, my earliest memories had been memories
+                of horses and my first longings had been longings to ride.
+                could understand where we ever got money enough to keep us
+                with food in our bellies, not even the old men of the family. Most
+                important of all, though, we were famous for our honesty. We
+                had been famous for our honesty for something like eleven
+                centuries, even when we had been the wealthiest family in what
+                we liked to think was the world. We were proud first, honest
+                next, and after that we believed in right and wrong. None of us
+                would take advantage of anybody in the world, let alone steal.
+                Consequently, even though I could see the horse, so
+                magnificent; even though I could smell it, so lovely; even though
+            </p>
+        </div>
+    </body>
+</html>
